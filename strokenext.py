@@ -90,7 +90,7 @@ class StrokeNeXt(nn.Module):
     def __init__(
         self,
         n_classes: int,
-        encoder_name: str = "convnext_tinyy",  # convnext_small, convnext_base, convnext_large
+        encoder_name: str = "convnext_tiny",  # convnext_small, convnext_base, convnext_large
         feature_dim: int = 768,  # 768, 1024, 1536
         fusion_hidden: int = None,
         fusion_dropout: float = 0.5,
