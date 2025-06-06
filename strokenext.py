@@ -2,7 +2,7 @@
 StrokeNeXt: A Siamese-encoder Approach for Brain Stroke Classification in Computed Tomography Imagery
 
 This module defines the StrokeNeXt architecture, composed of:
-- Two parallel encoders (e.g., ConvNeXt, ResNet) from torchvision
+- Two parallel ConvNeXt encoders from torchvision
 - A lightweight 1D convolutional fusion module
 - A compact fully-connected classifier
 
