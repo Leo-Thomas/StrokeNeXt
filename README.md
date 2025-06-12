@@ -17,7 +17,7 @@
 
 StrokeNeXt is under review <!--at []() ! 📣 -->
 
-## About the project
+## Summary
 
 We present StrokeNeXt, a deep learning model designed for stroke classification in 2D Computed Tomography imagery. The architecture integrates two identical ConvNeXt encoders in a dual-branch configuration, enabling complementary feature extraction from the same input. The outputs are merged via a lightweight convolutional decoder composed of stacked 1D operations, including a bottleneck projection and transformation layers, followed by a compact classifier that produces the final prediction.
 
